@@ -1,0 +1,10 @@
+
+
+Ver8
+
+1 App cho 2 Model PSW / PWR Controller"
+
+
+Ver_9
+Add Scanner để kích hoạt điện áp
+
