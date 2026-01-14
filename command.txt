@@ -1,22 +1,18 @@
 
+Ver2.py 
 
-Ver8
-
-1 App cho 2 Model PSW / PWR Controller"
-
-
-Ver8.1
-   State machine rõ ràng:
-
-IDLE
-
-RUN
-
-NO-DETECT
-
-ERROR
+--> Kha OK
 
 
-Ver_9
-Add Scanner để kích hoạt điện áp
+Ver2_fix
+--> OK ( Chac Again)
+
+Ver3.py
++ Add  Scanner---> OK
+
+Ver4
++ Add màu cho disconnect---OK
++ Scanner --> Control điện áp
+Scan mã V/I (18,10 … / V=18 I=10 … / 18V 10A … / VS18/VS21/VS25) → set V/I
+Sau đó scan tiếp “ON” hoặc “OFF” → bật/tắt Output tương ứng
 
