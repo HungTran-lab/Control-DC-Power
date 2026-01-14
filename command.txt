@@ -16,3 +16,14 @@ Ver4
 Scan mã V/I (18,10 … / V=18 I=10 … / 18V 10A … / VS18/VS21/VS25) → set V/I
 Sau đó scan tiếp “ON” hoặc “OFF” → bật/tắt Output tương ứng
 
+ver5
+ Update truc Y=0.1
+
+
+ xuất EXE
+ pyinstaller --noconfirm --clean --onefile --windowed --name "PWR_Controller" --icon=pwr.ico --add-data "mainline.ui;." --add-data "pwr.png;." --collect-all pyqtgraph ver5.py
+
+
+Note:
+--icon= trên Windows nên là .ico (PNG thường không ăn)
+Nếu chạy exe mà mất pyqtgraph (streaming/plot không lên)--> --collect-all pyqtgraph
